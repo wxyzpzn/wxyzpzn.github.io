@@ -1,7 +1,9 @@
 ## 图书管情报学概论作业
 
  [第一次作业](https://wxyzpzn.github.io/4.html)
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ [第二次作业](https://wxyzpzn.github.io/4.html)
+ [第三次作业](https://wxyzpzn.github.io/4.html)
+
 
 ### Markdown
 
