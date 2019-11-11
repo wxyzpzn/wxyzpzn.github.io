@@ -1,8 +1,8 @@
 ## 图书管情报学概论作业
 
- [第一次作业](https://wxyzpzn.github.io/4.html)
- [第二次作业](https://wxyzpzn.github.io/4.html)
- [第三次作业](https://wxyzpzn.github.io/4.html)
+## [第一次作业](https://wxyzpzn.github.io/4.html)
+# [第二次作业](https://wxyzpzn.github.io/4.html)
+# [第三次作业](https://wxyzpzn.github.io/4.html)
 
 
 ### Markdown
