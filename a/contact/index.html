@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>联系我们_我的网站</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- css  -->
+	<link rel="stylesheet" href="/mobanvip/css/style.css">	<link rel="stylesheet" href="/mobanvip/css/other.css">	<style>
+	.gallery-list .wrap:hover h5{
+		background-color:  #e2d483;
+	}
+	.btn:hover,
+	form button:hover,
+	input[type='text']:focus,
+	textarea:focus{
+		border-color: #e2d483;
+	}
+	.nav>li>a:hover,
+	.pic-list .pic-box:hover h5,
+	.home-box:hover h4,
+	.slick-arrow:hover,
+	.foot-box a:hover,
+	.home-news-box:hover:before,
+	.news-box:hover h5,
+	.ctrl-menu .prev:hover,
+	.ctrl-menu .prev:hover:before,
+	.ctrl-menu .next:hover,
+	.ctrl-menu .next:hover:after,
+	.m-header>i:after,li.has-ul:after{
+		color: #e2d483;
+	}
+	</style>
+	<!-- js -->
+	<script src="/mobanvip/js/jquery1.7.js"></script>	<script src="/mobanvip/js/plugins.js"></script>	<script src="/mobanvip/js/slick.min.js"></script>	<script src="/mobanvip/js/main.js"></script>
+		<!--[if IE 8]>
+		<script src="http://cdn.bootcss.com/selectivizr/1.0.2/selectivizr-min.js"></script>
+		<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=84348b36c8def15acd053822b4df9f57"></script>  <!--  RIGHT CONTENT  -->
+
+
+
+  <!-- 菜单 -->
+  <div class="header">
+
+		<div class="logo"><a href="http://m0107.magicw.cn/"><img src="/mobanvip/images/logo.png"></a></div>
+
+		<ul class="nav">
+        
+		<li >
+        <a href="http://m0107.magicw.cn/" target="_self">首页</a>
+        </li>
+        <li>
+        <a href="/a/news/" target="_self">资讯</a>
+           <ul class="sub">
+			   
+			   <li><a href="/a/news/" target="_self">主题活动</a></li>
+			   
+			   <li><a href="/a/news/event/" target="_self">春夏新品</a></li>
+			   
+			   <li><a href="/a/news/idea/" target="_self">创意灵感</a></li>
+			   
+           </ul>
+        </li><li>
+        <a href="/a/categories/" target="_self">新品</a>
+           <ul class="sub">
+			   
+			   <li><a href="/a/categories/sofa/" target="_self">沙发和扶手椅</a></li>
+			   
+			   <li><a href="/a/categories/bed/" target="_self">床品系列</a></li>
+			   
+			   <li><a href="/a/categories/bathroom/" target="_self">浴室家居与香薰</a></li>
+			   
+			   <li><a href="/a/categories/textile/" target="_self">纺织品</a></li>
+			   
+           </ul>
+        </li><li>
+        <a href="/a/about/" target="_self">关于我们</a>
+           <ul class="sub">
+			   
+			   <li><a href="/a/about/" target="_self">品牌故事</a></li>
+			   
+			   <li><a href="/a/about/history/" target="_self">公司历史</a></li>
+			   
+			   <li><a href="/a/about/design/" target="_self">设计理念</a></li>
+			   
+           </ul>
+        </li><li>
+        <a href="/a/contact/" target="_self">联系我们</a>
+           
+			   
+           
+        </li><li>
+        <a href="/a/text/" target="_self">自由页面</a>
+           
+			   
+           
+        </li><li>
+        <a href="http://www.baidu.com" target="_self">外链</a>
+           
+			   
+           
+        </li>
+		</ul>
+    
+	</div><!-- header end —————— -->
+
+  <div class="gap"></div>
+  <div class="m-header"></div>
+<input id="point" style="display:none" value="114.322728,30.560902">
+<div class="banner">
+	<div class="img">
+										<script>
+			$(function() {
+				$('.banner').addClass('has-map')
+			});	
+			</script>
+			<div id="contact-map"></div>
+						</div>
+</div><!-- banner end -->
+
+	<div class="section sub-page contact">
+
+		<div class="mobanvip">
+
+			<div class="title">
+				<h3>客服服务中心</h3>
+				<p>联系我们</p>
+			</div>
+
+			<div class="text-wrap">
+				<h5>联系信息</h5><!-- 定死的標題 p才是輸入的內容 -->
+				<div class="text">欢迎任何形式的媒体与商务合作<br />
+深入的了解，有利于为您提供更优质的服务<br />
+QQ：12345678<br />
+邮箱：admin#qq.com<br />
+地址：北京东城区<br />
+邮编：100000</div>
+			</div>
+
+			<div class="form">
+				<h5>给我们留言</h5><!-- 定死的標題 -->
+				<form id="myform">
+	              <input type="hidden" name="action" value="post" />
+				  <input type="hidden" name="diyid" value="1" />
+				  <input type="hidden" name="do" value="2" />
+				  <dl>
+	                  <dt>您的称呼</dt>
+	                  <dd><input id="name" type="text" name="name" class="formText"></dd>
+	              </dl>
+
+	              <dl>
+	                  <dt>您的邮箱<small>(必填)</small></dt>
+	                  <dd><input id="email" type="text" name="email" class="formText"></dd>
+	              </dl>
+	              <dl>
+	                  <dt>您的手机号码<small>(必填)</small></dt>
+	                  <dd><input id="phone" type="text" name="phone" class="formText"></dd>
+	              </dl>
+	              <dl style="width:100%">
+	                  <dt>您的想法 / 意见<small>(必填)</small></dt>
+	                  <dd><textarea id="message" name="message" class="formText" ></textarea></dd>
+	              </dl>
+				  <input type="hidden" name="dede_fields" value="name,text;email,text;phone,text;message,multitext" />
+				  <input type="hidden" name="dede_fieldshash" value="dfd1d3f6b06e842271555627413bac15" />
+	              <div class="formBtn"><button id="sendbtn" type="submit">发送留言</button></div>
+	              <div class="formBtn"><button id="sendingbtn">发送中...</button></div>
+				</form>
+			</div>
+
+		</div>
+
+	</div><!-- section sub-page text-page contact end -->
+
+
+	<div class="footer">
+		<div class="wrap">
+
+			<div class="foot-extend"><!-- 這個div下面都是後台寫入的內容 -->
+
+				<div class="foot-box">
+					<a href="http://m0107.magicw.cn/">首页</a>
+					<a href="/a/about/design/">设计理念</a>
+					<a href="/a/about/">服务概念</a>
+					<a href="/a/about/">关于我们</a>
+					<a href="/a/contact/">联系我们</a>
+					<a href="/a/text/">更多服务</a>
+				</div>
+			</div>
+
+
+				<div class="social-box">
+
+										<a class="qq" href="http://wpa.qq.com/msgrd?v=3&uin=80044685&site=qq&menu=yes" target="_blank"><i>在线客服</i></a>
+					
+										<a class="scan"><img src="/mobanvip/images/qr-code.png"></a>
+					
+										<a class="taobao" href="https://taobao.com/" target="_blank"><i>淘宝商城</i></a>
+					
+										<a class="weibo" href="http://weibo.com/" target="_blank"><i>新浪微博</i></a>
+					
+										<a class="tt" href="http://t.qq.com" target="_blank"><i>腾讯微博</i></a>
+					
+					<a class="go-top"><i>回到顶部</i></a>
+				</div>
+
+
+				<div class="bottom">
+				<div class="copy"><a href="#">© 2017 家庭纺织品印花企业集团网站模板</a></p>
+					<p class="" style="font-size: 11px;">&nbsp;Power by
+	          <a style="color: #aaa" href="http://m0107.magicw.cn/" target="_blank">m0107.magicw.cn/</a>
+	        </p>
+				</div>
+				</div>
+				
+		</div>
+	</div>
+
+
+</body>
+<!--[if (gte IE 7)&(lte IE 8)]>
+	<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="/mobanvip/js/jquery.form.js"></script><script src="/mobanvip/js/contact.js"></script></html>
