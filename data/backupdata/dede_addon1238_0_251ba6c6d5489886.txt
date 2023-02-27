@@ -1,0 +1,9 @@
+INSERT INTO `dede_addon1238` VALUES('19','5','','','127.0.0.1','Fish','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','很多','周杰伦','周星驰','兔子萌、丹小萌、兔子萌、萌萌','2011年《快乐女声》长沙唱区第十二名、逛街');
+INSERT INTO `dede_addon1238` VALUES('20','5','','','127.0.0.1','Blanche Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('21','5','','','127.0.0.1','Blanche Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('22','5','','','127.0.0.1','Blanche Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('23','5','','','127.0.0.1','Clown','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('24','5','','','127.0.0.1','Blanche Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('25','5','','','127.0.0.1','Blanche Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('26','5','','','127.0.0.1','Blanche Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
+INSERT INTO `dede_addon1238` VALUES('27','5','','','127.0.0.1','Li','吉他、Keyboards','词曲创作、编曲','听歌、看电影、玩游戏、旅游','','','','','');
